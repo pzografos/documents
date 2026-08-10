@@ -544,7 +544,7 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{\@teluri}{\faAlt{tel:\@mobile}{\faMobile}{\@mobile}}%
+          \href{\@teluri}{\faAlt{\@mobile}{\faMobile}{\@mobile}}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@whatsapp}}%
@@ -557,7 +557,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{mailto:\@email}{\faAlt{mailto:\@email}{\faEnvelope}{\@email}}%
+          \href{mailto:\@email}{\faAlt{\@email}{\faEnvelope}{\@email}}%
         }%
       \ifthenelse{\isundefined{\@dateofbirth}}%
         {}%

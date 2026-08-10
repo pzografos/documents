@@ -20,4 +20,4 @@ The last successful build used LuaLaTeX (TeX Live 2026). XeLaTeX also works — 
 
 - `cv/cv.tex` — entry point: document config (colors, margins, personal info in the header) and the ordered list of `\input{lib/...}` section includes.
 - `cv/lib/*.tex` — one file per CV section (education, skills, experience, honors, etc.). Content edits happen here; to add/remove/reorder sections, edit the `\input` list at the bottom of `cv.tex`.
-- `cv/awesome-cv.cls` — the template class. Prefer configuring via the hooks exposed in `cv.tex` (e.g. `\colorlet{awesome}{...}`, `\setbool{acvSectionColorHighlight}`) over editing the class directly.
+- `cv/awesome-cv.cls` — the template class. Prefer configuring via the hooks exposed in `cv.tex` (e.g. `\colorlet{awesome}{...}`, `\setbool{acvSectionColorHighlight}`) over editing the class directly. Local patch: a `%` was added after `\end{minipage}` in `\makecvheader` (line ~534) to fix a persistent 1.46pt overfull hbox caused by the newline between the photo and text minipages — re-apply if the class is ever updated from upstream.

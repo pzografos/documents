@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.8.10)  10 AUG 2026 12:12
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.8.10)  10 AUG 2026 14:11
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -1114,9 +1114,9 @@ Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
 File: bkm-luatex.def 2026-05-21 v1.32 bookmark driver for luaTeX (HO)
 \BKM@id=\count356
 )))
-No file cv.aux.
-
+(./cv.aux)
 \openout1 = cv.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
@@ -1137,6 +1137,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
 LaTeX Font Info:    ... okay on input line 84.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -1237,21 +1238,21 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 89--89
 [][] [][] 
  []
 
-(./lib/education.tex
+(./lib/summary.tex) (./lib/skills.tex) (./lib/certificates.tex
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/l/sl' in size <9> not availab
 le
 (Font)              Font shape `TU/SourceSans3(0)/l/it' tried instead on input 
-line 22.
+line 17.
+)
+(./lib/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSans3(0)/l/sl' in size <8> not availab
 le
 (Font)              Font shape `TU/SourceSans3(0)/l/it' tried instead on input 
-line 22.
-) (./lib/skills.tex) (./lib/experience.tex [1
+line 26.
+ [1
 
-{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
-(./lib/extracurricular.tex) (./lib/honors.tex [3]) (./lib/certificates.tex)
-(./lib/presentation.tex) (./lib/writing.tex) (./lib/committees.tex [4])
-[5] (./cv.aux)
+{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./lib
+/education.tex) [2] (./cv.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1259,21 +1260,21 @@ L3 programming layer <2026-07-20>
 )
 
 Here is how much of LuaTeX's memory you used:
- 36590 strings out of 475695
- 156364,1648299 words of node,token memory allocated
+ 36550 strings out of 475695
+ 195462,1648299 words of node,token memory allocated
  646 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 83 glue_spec,
  7 attribute_list, 2 write nodes
-   avail lists: 1:2,2:2644,3:590,4:662,5:2030,6:276,7:14930,9:1773,10:12,11:1082
-
- 58656 multiletter control sequences out of 65536+600000
- 83 fonts using 36238135 bytes
+   avail lists: 1:1,2:1629,3:617,4:534,5:2295,6:231,7:17431,8:2,9:1418,10:12,11:
+1400
+ 58645 multiletter control sequences out of 65536+600000
+ 81 fonts using 34928039 bytes
  131i,12n,127p,559b,1448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/opentype/adobe/sourcesans/SourceSans3-
-Light.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/adobe/sourcesans/So
-urceSans3-LightIt.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/adobe/s
-ourcesans/SourceSans3-Bold.otf></usr/local/texlive/2026/texmf-dist/fonts/opentyp
-e/adobe/sourcesans/SourceSans3-RegularIt.otf></usr/local/texlive/2026/texmf-dist
+RegularIt.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/adobe/sourcesan
+s/SourceSans3-LightIt.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/ado
+be/sourcesans/SourceSans3-Light.otf></usr/local/texlive/2026/texmf-dist/fonts/op
+entype/adobe/sourcesans/SourceSans3-Bold.otf></usr/local/texlive/2026/texmf-dist
 /fonts/opentype/public/fontawesome6/FontAwesome6Brands-Regular-400.otf></usr/loc
 al/texlive/2026/texmf-dist/fonts/opentype/google/roboto/Roboto-Regular.otf></usr
 /local/texlive/2026/texmf-dist/fonts/opentype/public/fontawesome6/FontAwesome6Fr
@@ -1282,10 +1283,10 @@ o/Roboto-Italic.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/adobe/sou
 rcesans/SourceSans3-Regular.otf></usr/local/texlive/2026/texmf-dist/fonts/openty
 pe/google/roboto/Roboto-Bold.otf></usr/local/texlive/2026/texmf-dist/fonts/opent
 ype/google/roboto/Roboto-Light.otf>
-Output written on cv.pdf (5 pages, 66197 bytes).
+Output written on cv.pdf (2 pages, 52446 bytes).
 
-PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 1048576)
+PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 1048576)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
